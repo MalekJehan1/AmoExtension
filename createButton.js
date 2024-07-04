@@ -29,7 +29,7 @@ function createButton(divCardTitle) {
     button.addEventListener("click", () => {
 
         //variavel string que armazenará os dados que desejamos buscar
-        text = "getDados()";
+        text = getDados();
         console.log(text)
 
         // Cria um elemento de input para colocar o texto
